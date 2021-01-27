@@ -1,4 +1,5 @@
 import './App.css';
+import Form from './components/contact-form';
 import Header from './components/header';
 import Services from './components/services';
 
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Header />
       <Services />
+      <Form />
     </div>
   );
 }

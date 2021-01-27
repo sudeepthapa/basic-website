@@ -1,0 +1,25 @@
+#contact-form{
+  width: 85%;
+  margin: auto;
+  padding: 50px 0;
+}
+
+#contact-form input, #contact-form textarea{
+  display: block;
+  margin: 5px 0;
+  width: 400px;
+  height: 20px;
+  padding: 10px;
+}
+
+#contact-form textarea{
+  height: 100px;
+}
+
+.error{
+  color: red;
+}
+
+.error-block{
+  border: 1px solid red;
+}
